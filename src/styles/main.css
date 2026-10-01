@@ -3,20 +3,10 @@
 body {
 	padding: 0;
 	margin: 0;
-	background-color: #ccc;
-	color: #333;
 	font-family: Arial, Helvetica, sans-serif;
+	background: #eee;
 }
 
 main {
 	padding: 1rem;
-}
-
-a {
-	color: rebeccapurple;
-}
-
-code {
-	background-color: #999;
-	padding: 0.25rem;
 }
