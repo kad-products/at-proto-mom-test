@@ -1,48 +1,25 @@
-import classNames from 'classnames';
 import { StrictMode } from 'react';
 
-export function DefaultLayout({
-	children,
-	currentBasePage,
-	pageTitle,
-}: {
-	children: React.ReactNode;
-	currentBasePage: string | undefined;
-	pageTitle: string;
-}): React.ReactNode {
+export function DefaultLayout({ children }: { children: React.ReactNode }): React.ReactNode {
 	return (
 		<StrictMode>
 			<header className="default-header">
-				<h1 className="welcome-title">KAD RWSDK Template</h1>
+				<h1 className="welcome-title">@ Proto Takes The Mom Test</h1>
 				<nav className="main-nav">
-					<a
-						className={classNames({
-							'nav-item': true,
-							'nav-item-active': currentBasePage === 'home',
-						})}
-						href="/"
-					>
-						<span className="nav-item-icon">🏡</span>
-						<span className="nav-item-label">Home</span>
-					</a>
-					<a
-						className={classNames({
-							'nav-item': true,
-							'nav-item-active': currentBasePage === 'about',
-						})}
-						href="/about"
-					>
-						<span className="nav-item-icon">🎉</span>
-						<span className="nav-item-label">About</span>
-					</a>
+					<a href="/">Our Goal</a>
+					<a href="/the-test">The Test</a>
+					<a href="/one-moms-journey">One Mom's Journey</a>
+					<a href="/explore-the-protocol">Explore the Protocol</a>
+					<a href="/about-us">About Us</a>
 				</nav>
 			</header>
-			<main>
-				<h2 className="page-title">{pageTitle}</h2>
-				<div className="app-layout-inner">
-					<div className="app-layout-content">{children}</div>
-				</div>
-			</main>
+			<main>{children}</main>
+			<footer className="default-footer">
+				<nav className="footer-nav">
+					<a href="/bluesky">Bluesky</a>
+					<a href="/github">GitHub</a>
+				</nav>
+			</footer>
 		</StrictMode>
 	);
 }
