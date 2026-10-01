@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/kad-products/at-proto-mom-test/compare/v1.0.1...v1.0.2) (2026-10-01)
+
+### Bug Fixes
+
+* noop for new workflows ([f53fb47](https://github.com/kad-products/at-proto-mom-test/commit/f53fb47232102af1da961e59c411a357a735391c))
+
 ## [1.0.1](https://github.com/kad-products/at-proto-mom-test/compare/v1.0.0...v1.0.1) (2026-10-01)
 
 ### Bug Fixes
