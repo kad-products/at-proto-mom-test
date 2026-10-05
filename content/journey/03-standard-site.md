@@ -1,0 +1,24 @@
+---
+title: Handle
+order: 3
+---
+
+Now that our mom has the hang of Leaflet, we’ll take a pause to dive into the idea of standard data structures. I know you can hardly wait.
+
+Part of what makes the at proto different is that the structure of the application’s data is publicly defined and even sometimes shared between applications that are operated by different companies. This might seem like an irrelevant detail or like a technical impossibility, depending on your level of knowledge of how applications on the Internet function.
+
+Let me introduce you to standard.site. 
+For the less technologically aware users out there, this is a set of standard data structures that applications like Leaflet and others have agreed to for how to define a blog, blog posts, comments, and followers. 
+For the people that live and breathe in nitty-gritty details of the web: take a look at the standard.site documentation for more of those details as they are out of scope for the Mom test. 
+
+To the average user, Leaflet functions just like other blogging platforms. You login, you author something, you post, and people can comment, like, and follow you.
+
+Where standard.site changes things is the way those blogs, blog posts, comments, and follows are structured and stored.  Regardless of whether you’re using Leaflet or one of their competitors, they all are defined and stored the exact same way and in the exact same place.
+
+That would be like Instagram and TikTok deciding they wanted to share the data structure they currently house in their own data centers with each other. And make sure that they are interoperable. And I hear ya: that doesn’t make a lot of sense given what we know about those two products. And I can also reassure you that they have no plans to do those things!
+
+What does this mean for our mom? It means she could go over to Packet and use their interface. Or one of her followers could use Offprint to follow her and read her posts. 
+
+<judy thoughts>
+
+Maybe this doesn’t seem too significant to you just yet. Up next we’re gonna start exploring what that data ownership approach of the PDS means for our intrepid mother.

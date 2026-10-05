@@ -8,8 +8,8 @@ export function DefaultLayout({ children }: { children: React.ReactNode }): Reac
 				<nav className="main-nav">
 					<a href="/">Our Goal</a>
 					<a href="/the-test">The Test</a>
-					<a href="/one-moms-journey">One Mom's Journey</a>
-					<a href="/explore-the-protocol">Explore the Protocol</a>
+					<a href="/journey">One Mom's Journey</a>
+					<a href="/topics">Explore the Protocol</a>
 					<a href="/about-us">About Us</a>
 				</nav>
 			</header>

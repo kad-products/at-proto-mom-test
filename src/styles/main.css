@@ -1,4 +1,6 @@
+@import "./journey.less";
 @import "./layout-default.less";
+@import "@kad-products/sofrito/styles.css";
 
 body {
 	padding: 0;
