@@ -4,7 +4,7 @@ import { entries } from '@/lib/journey';
 
 export default async function Pages__journey__entry({ request }: RequestInfo): Promise<React.JSX.Element> {
 	const url = new URL(request.url);
-	const slug = url.pathname.split('/')[2];
+	const slug = url.pathname.split('/')[2] ?? '00-overview';
 	const thisEntry = entries.find(entry => entry.slug === slug);
 	if (!thisEntry) {
 		return (

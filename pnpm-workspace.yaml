@@ -4,3 +4,4 @@ allowBuilds:
   workerd: false
 minimumReleaseAgeExclude:
   - '@kad-products/shed@1.0.0'
+  - '@kad-products/sofrito@1.4.0'

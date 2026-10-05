@@ -1,0 +1,10 @@
+// Generated from intro.md — do not edit directly
+export const entry = {
+	slug: 'intro',
+	title: 'Introduction',
+	navLabel: 'Intro',
+	short: 'Getting started in the AT protocol can be overwhelming, let us help.',
+	order: 0,
+	content:
+		'<p>The AT Protocol (pronounced “at proto”) isn’t a single thing or concept but rather a collection of pieces that work together to enable new and better ways to build for the web.  Individually they don’t mean a significant change but together they unlock some transformational capabilities.  The tricky part is that these concepts are pretty abstract and technical so the average user either won’t understand them or could be lured away from them by the marketing engine of the very apps that AT proto aims to disrupt.  That’s where this “mom test for the AT proto” comes in (the site you’re on).  By breaking these concepts down in common language with good visuals and friendly analogies, we’ll make the AT proto clear and approachable.  </p>\n<p>The “mom test” is a term introduced to me by my friend Dorothy. She apparently uses it often in reference to explaining complex and gnarly topics to her mom in ways that she’ll be able to track.  In discussing this series of posts with Dorothy, it seemed like exactly what I was trying to do (although not specifically for her mom).  </p>\n<p>As a little intro and to whet your appetite, the AT proto flips some long-standing patterns on their head to the benefit of users over corporations.  These concepts may seem superficial but read on to see what they really mean.</p>\n<ul>\n<li>Usernames become handles</li>\n<li>Corporate data becomes your data</li>\n<li>Vendor lock-in becomes user-focused feature development</li>\n</ul>\n<p>These concepts have been put together by members of the development community who believe strongly in an open and free internet.  They aren’t just fanciful dream ideas, they are powering some real apps used by millions of users (such as Bluesky). While some in the development community have built and are building things on the AT Proto, significant change will take pressure and interest from users such as yourselves.</p>\n',
+};
