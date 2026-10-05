@@ -1,3 +1,11 @@
+## [1.1.0](https://github.com/kad-products/at-proto-mom-test/compare/v1.0.2...v1.1.0) (2026-10-05)
+
+### Features
+
+* add body class for site section ([26823c9](https://github.com/kad-products/at-proto-mom-test/commit/26823c9722784bf6f0be334dbb406e4e701eafce))
+* content building and initial page nave ([1e4ca51](https://github.com/kad-products/at-proto-mom-test/commit/1e4ca517b97f709fd50e2662bff17d8bf57e825c))
+* move journey section to more proper pages ([65c60b7](https://github.com/kad-products/at-proto-mom-test/commit/65c60b758a60c0d665fd0a6460a56ce569f97040))
+
 ## [1.0.2](https://github.com/kad-products/at-proto-mom-test/compare/v1.0.1...v1.0.2) (2026-10-01)
 
 ### Bug Fixes
