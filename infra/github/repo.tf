@@ -5,10 +5,10 @@ module "repo" {
   repo_description = "AT Proto Takes The Mom Test"
   is_product       = true
   required_checks = [
-    "plan-github-setup / Plan",
-    "lint-code / lint-code",
-    "run-tests / run-tests",
-    "create-release-dry-run / create-release-dry-run",
     "lint-commits / lint-commits",
+    "run-tests / run-tests",
+    "lint-code / lint-code",
+    "create-release-dry-run / create-release-dry-run",
+    "plan-github-setup / plan-open-tofu",
   ]
 }
