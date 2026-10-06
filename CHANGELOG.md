@@ -1,3 +1,13 @@
+## [1.1.1](https://github.com/kad-products/at-proto-mom-test/compare/v1.1.0...v1.1.1) (2026-10-06)
+
+### Bug Fixes
+
+* actually _use_ the right variable in the github terraform ([d711c80](https://github.com/kad-products/at-proto-mom-test/commit/d711c808e520c1ce3d079ac95977ce3b964b7701))
+* align wrangler vars across environments ([6575dfd](https://github.com/kad-products/at-proto-mom-test/commit/6575dfdb81d0fb083efa2813924aa1a8447c585f))
+* use the latest repo module ([bbfb3c5](https://github.com/kad-products/at-proto-mom-test/commit/bbfb3c5afc65cb574c9feb59f7573ac7254d22b8))
+* use the right checks in the repo ([40792e4](https://github.com/kad-products/at-proto-mom-test/commit/40792e41482b461f9cee04b08fccb730cd092634))
+* use the right variable in the github ([0e08771](https://github.com/kad-products/at-proto-mom-test/commit/0e0877137e50be03b623b0cdc10f1de38b656171))
+
 ## [1.1.0](https://github.com/kad-products/at-proto-mom-test/compare/v1.0.2...v1.1.0) (2026-10-05)
 
 ### Features
