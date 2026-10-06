@@ -31,17 +31,23 @@
 	"env": {
 		"integration": {
 			"vars": {
-				"KAD_PRODUCTS_ENVIRONMENT": "integration"
+				"KAD_PRODUCTS_ENVIRONMENT": "integration",
+				"LOG_LEVEL": "info",
+				"LOG_LEVEL_TASK_OVERRIDE": ""
 			}
 		},
 		"staging": {
 			"vars": {
-				"KAD_PRODUCTS_ENVIRONMENT": "staging"
+				"KAD_PRODUCTS_ENVIRONMENT": "staging",
+				"LOG_LEVEL": "info",
+				"LOG_LEVEL_TASK_OVERRIDE": ""
 			}
 		},
 		"production": {
 			"vars": {
-				"KAD_PRODUCTS_ENVIRONMENT": "production"
+				"KAD_PRODUCTS_ENVIRONMENT": "production",
+				"LOG_LEVEL": "warn",
+				"LOG_LEVEL_TASK_OVERRIDE": ""
 			}
 		}
 	}
