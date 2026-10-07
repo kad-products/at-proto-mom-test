@@ -1,5 +1,5 @@
 module "environments" {
-  source   = "github.com/kad-products/platform//open-tofu/modules/github-environment?ref=v1.9.0"
+  source   = "github.com/kad-products/platform//open-tofu/modules/github-environment?ref=v1.15.5"
   for_each = toset(["integration", "staging", "production"])
 
   repo_name        = var.repo_name
