@@ -1,16 +1,26 @@
 import { StrictMode } from 'react';
 
-export function DefaultLayout({ children }: { children: React.ReactNode }): React.ReactNode {
+export function DefaultLayout({ activeNav, children }: { activeNav: string; children: React.ReactNode }): React.ReactNode {
 	return (
 		<StrictMode>
 			<header className="default-header">
 				<h1 className="welcome-title">@ Proto Takes The Mom Test</h1>
 				<nav className="main-nav">
-					<a href="/">Our Goal</a>
-					<a href="/the-test">The Test</a>
-					<a href="/journey">One Mom's Journey</a>
-					<a href="/topics">Explore the Protocol</a>
-					<a href="/about-us">About Us</a>
+					<a href="/" className={activeNav === 'root' ? 'main-nav-active' : ''}>
+						Our Goal
+					</a>
+					<a href="/the-test" className={activeNav === 'the-test' ? 'main-nav-active' : ''}>
+						The Test
+					</a>
+					<a href="/journey" className={activeNav === 'journey' ? 'main-nav-active' : ''}>
+						One Mom's Journey
+					</a>
+					<a href="/topics" className={activeNav === 'topics' ? 'main-nav-active' : ''}>
+						Explore the Protocol
+					</a>
+					<a href="/about-us" className={activeNav === 'about-us' ? 'main-nav-active' : ''}>
+						About Us
+					</a>
 				</nav>
 			</header>
 			<main>{children}</main>

@@ -4,7 +4,7 @@ import { content } from '../../content/the-test';
 
 export default async function Pages__the_test(): Promise<React.JSX.Element> {
 	return (
-		<DefaultLayout>
+		<DefaultLayout activeNav="the-test">
 			<Markdown>{content}</Markdown>
 		</DefaultLayout>
 	);
