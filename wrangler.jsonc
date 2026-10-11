@@ -30,6 +30,16 @@
 	},
 	"env": {
 		"integration": {
+			"routes": [
+				{
+					"pattern": "int.at-proto.takes-the-mom-test.com",
+					"custom_domain": true
+				},
+				{
+					"pattern": "at-proto-mom-test.int.kad-products.com",
+					"custom_domain": true
+				}
+			],
 			"vars": {
 				"KAD_PRODUCTS_ENVIRONMENT": "integration",
 				"LOG_LEVEL": "info",
@@ -37,6 +47,16 @@
 			}
 		},
 		"staging": {
+			"routes": [
+				{
+					"pattern": "stg.at-proto.takes-the-mom-test.com",
+					"custom_domain": true
+				},
+				{
+					"pattern": "at-proto-mom-test.stg.kad-products.com",
+					"custom_domain": true
+				}
+			],
 			"vars": {
 				"KAD_PRODUCTS_ENVIRONMENT": "staging",
 				"LOG_LEVEL": "info",
@@ -44,6 +64,16 @@
 			}
 		},
 		"production": {
+			"routes": [
+				{
+					"pattern": "at-proto.takes-the-mom-test.com",
+					"custom_domain": true
+				},
+				{
+					"pattern": "at-proto-mom-test.kad-products.com",
+					"custom_domain": true
+				}
+			],
 			"vars": {
 				"KAD_PRODUCTS_ENVIRONMENT": "production",
 				"LOG_LEVEL": "warn",
