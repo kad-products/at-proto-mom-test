@@ -8,18 +8,18 @@ export default async function Pages__journey__entry({ request }: RequestInfo): P
 	const thisEntry = entries.find(entry => entry.slug === slug);
 	if (!thisEntry) {
 		return (
-			<DefaultLayout>
+			<DefaultLayout activeNav="none">
 				<h2>Entry not found</h2>
 				<p>We could not find an entry for the slug: {slug}</p>
 			</DefaultLayout>
 		);
 	}
 	return (
-		<DefaultLayout>
+		<DefaultLayout activeNav="journey">
 			<nav className="journey-nav">
 				{entries.map(entry => {
 					return (
-						<a key={entry.slug} href={`/journey/${entry.slug}/`}>
+						<a key={entry.slug} href={`/journey/${entry.slug}/`} className={entry.slug === slug ? 'active' : ''}>
 							{entry.title}
 						</a>
 					);

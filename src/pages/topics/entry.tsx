@@ -8,14 +8,14 @@ export default async function Pages__topics__entry({ request }: RequestInfo): Pr
 	const thisEntry = entries.find(entry => entry.slug === slug);
 	if (!thisEntry) {
 		return (
-			<DefaultLayout>
+			<DefaultLayout activeNav="none">
 				<h2>Entry not found</h2>
 				<p>We could not find an entry for the slug: {slug}</p>
 			</DefaultLayout>
 		);
 	}
 	return (
-		<DefaultLayout>
+		<DefaultLayout activeNav="topics">
 			<h2>{thisEntry.title}</h2>
 			{/* biome-ignore lint/security/noDangerouslySetInnerHtml: content from markdown requires this */}
 			<div dangerouslySetInnerHTML={{ __html: thisEntry.content }} />

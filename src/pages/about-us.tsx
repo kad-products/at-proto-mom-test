@@ -3,7 +3,7 @@ import { peeps } from '../../content/about-us';
 
 export default async function Pages__about_us(): Promise<React.JSX.Element> {
 	return (
-		<DefaultLayout>
+		<DefaultLayout activeNav="about-us">
 			{peeps.map(peep => {
 				return (
 					<div key={peep.name} className="peep">

@@ -4,7 +4,7 @@ import { entries } from '@/lib/topics';
 
 export default async function Pages__topics__listing(): Promise<React.JSX.Element> {
 	return (
-		<DefaultLayout>
+		<DefaultLayout activeNav="topics">
 			{entries.map(entry => (
 				<KADCard
 					key={entry.slug}
