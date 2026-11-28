@@ -22,8 +22,11 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	.ds-card {
-		flex: 1 1 40%;
+		flex: 1 1 80%;
 		font-size: 0.9rem;
+		@media (min-width: 800px) {
+			flex: 1 1 40%;
+		}
 		p {
 			margin: 0.25rem 0;
 		}
