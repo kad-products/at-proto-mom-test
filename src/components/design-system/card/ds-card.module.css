@@ -1,0 +1,46 @@
+.ds-card {
+	border-radius: 0.5rem;
+	border-width: 2px;
+	border-style: solid;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.ds-card-title {
+	background: #ddd;
+	border-radius: 0.5rem 0.5rem 0 0;
+	padding: 0.5rem 0.75rem;
+	font-weight: 600;
+}
+
+.ds-card-body {
+	padding: 0.5rem;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.ds-card-actions {
+	background: #f3f4f6;
+	border-radius: 0 0 0.25rem 0.25rem;
+	padding: 0.5rem 0.75rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+
+	a {
+		flex: 1;
+		display: block;
+		text-align: center;
+		color: #374151;
+		text-decoration: none;
+		font-size: 0.875rem;
+		font-weight: 500;
+
+		&:hover {
+			color: #111827;
+			text-decoration: underline;
+		}
+	}
+}

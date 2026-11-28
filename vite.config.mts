@@ -1,4 +1,8 @@
 import { cloudflare } from '@cloudflare/vite-plugin';
+import mdx from '@mdx-js/rollup';
+import remarkFrontmatter from 'remark-frontmatter';
+import remarkGfm from 'remark-gfm';
+import remarkMdxFrontmatter from 'remark-mdx-frontmatter';
 import { redwood } from 'rwsdk/vite';
 import { defineConfig, loadEnv } from 'vite';
 
@@ -13,6 +17,10 @@ export default defineConfig(({ mode }) => {
 			},
 		},
 		plugins: [
+			mdx({
+				include: /\.md$/,
+				remarkPlugins: [remarkGfm, remarkFrontmatter, remarkMdxFrontmatter],
+			}),
 			cloudflare({
 				viteEnvironment: { name: 'worker' },
 			}),
