@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/kad-products/at-proto-mom-test/compare/v1.3.1...v1.3.2) (2026-11-28)
+
+### Bug Fixes
+
+* homepage better cards on mobile ([db11862](https://github.com/kad-products/at-proto-mom-test/commit/db11862657a7ab7c7e9d275f3435c3d5dd4be683))
+
 ## [1.3.1](https://github.com/kad-products/at-proto-mom-test/compare/v1.3.0...v1.3.1) (2026-11-28)
 
 ### Bug Fixes
