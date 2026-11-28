@@ -1,3 +1,13 @@
+## [1.3.0](https://github.com/kad-products/at-proto-mom-test/compare/v1.2.0...v1.3.0) (2026-11-28)
+
+### Features
+
+* better homepage content and styling ([ef632e4](https://github.com/kad-products/at-proto-mom-test/commit/ef632e491dd5d45c0be560e7c540be4436030469))
+
+### Bug Fixes
+
+* better homepage nav label ([2e4167c](https://github.com/kad-products/at-proto-mom-test/commit/2e4167c0ff91ebe7a3374830b59a00451476895e))
+
 ## [1.2.0](https://github.com/kad-products/at-proto-mom-test/compare/v1.1.1...v1.2.0) (2026-10-11)
 
 ### Features
