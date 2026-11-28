@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/kad-products/at-proto-mom-test/compare/v1.3.0...v1.3.1) (2026-11-28)
+
+### Bug Fixes
+
+* more styling tweaks ([5f0f32a](https://github.com/kad-products/at-proto-mom-test/commit/5f0f32a152a44bde6ca7a97eb013a41845cfb524))
+
 ## [1.3.0](https://github.com/kad-products/at-proto-mom-test/compare/v1.2.0...v1.3.0) (2026-11-28)
 
 ### Features
