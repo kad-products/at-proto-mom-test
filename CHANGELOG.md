@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/kad-products/at-proto-mom-test/compare/v1.1.1...v1.2.0) (2026-10-11)
+
+### Features
+
+* add the real domains via wrangler ([b2aa8ca](https://github.com/kad-products/at-proto-mom-test/commit/b2aa8caa79894c6e8894fae8424162e827070db3))
+* indicate active nav items ([050fe00](https://github.com/kad-products/at-proto-mom-test/commit/050fe00a4f7b2d3a2d39b04a300fa9e41fb1b9e3))
+
 ## [1.1.1](https://github.com/kad-products/at-proto-mom-test/compare/v1.1.0...v1.1.1) (2026-10-06)
 
 ### Bug Fixes
