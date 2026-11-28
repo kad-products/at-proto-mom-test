@@ -4,8 +4,10 @@ export function DefaultLayout({ activeNav, children }: { activeNav: string; chil
 	return (
 		<StrictMode>
 			<header className="default-header">
-				<h1 className="header-title">AT Proto Takes the Mom Test</h1>
-				<p className="header-subtext">Explaining a new way the internet can work, one mom at a time.</p>
+				<div className="header-identity">
+					<h1 className="header-title">AT Proto Takes the Mom Test</h1>
+					<p className="header-subtext">Explaining a new way the internet can work, one mom at a time.</p>
+				</div>
 				<nav className="main-nav">
 					<a href="/" className={activeNav === 'root' ? 'main-nav-active' : ''}>
 						Intro

@@ -1,15 +1,35 @@
 .default-header {
-	text-align: center;
+	max-width: calc(1000px + 2rem);
+	margin: 1rem auto 0;
+	background: #ebdac9;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	border-bottom: 1px solid #ddd;
+	.header-identity {
+		padding: 0.5rem 1rem;
+	}
 	.main-nav {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		border-left: 1px solid #ddd;
+		border-radius: 3px;
+		overflow: hidden;
 		a {
-			padding: 1rem;
+			// bit of a hack to avoid the nav resizing when longer items are active
+			padding: 0.25rem 0.75rem 0.25rem 1.25rem;
+			text-decoration: none;
+			text-align: right;
+			border-bottom: 1px solid #ddd;
+			background: white;
+			&:last-child {
+				border-bottom: none;
+			}
 			&.main-nav-active {
-				text-decoration: none;
-				color: green;
+				background: #f90;
 				font-weight: bold;
+				color: white;
+				padding: 0.25rem 0.75rem;
 			}
 		}
 	}
