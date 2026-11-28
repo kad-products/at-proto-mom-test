@@ -8,7 +8,7 @@ export function DefaultLayout({ activeNav, children }: { activeNav: string; chil
 				<p className="header-subtext">Explaining a new way the internet can work, one mom at a time.</p>
 				<nav className="main-nav">
 					<a href="/" className={activeNav === 'root' ? 'main-nav-active' : ''}>
-						Our Goal
+						Intro
 					</a>
 					<a href="/the-test" className={activeNav === 'the-test' ? 'main-nav-active' : ''}>
 						The Test
